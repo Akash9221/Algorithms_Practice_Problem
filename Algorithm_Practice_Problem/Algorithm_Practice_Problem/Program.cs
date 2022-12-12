@@ -23,17 +23,29 @@ namespace Algorithm_Practice_Problem
 
             //AP2
             //Accept Two String From Use
-            Console.WriteLine("Enter The First Word");
-            string word1 = Console.ReadLine();
-            Console.WriteLine("Enter The Second Word");
-            string word2 = Console.ReadLine();
-            AnagramDetection.Anagram(word1, word2);//Pass Values To Function
-            Console.ReadLine();
+            //Console.WriteLine("Enter The First Word");
+            //string word1 = Console.ReadLine();
+            //Console.WriteLine("Enter The Second Word");
+            //string word2 = Console.ReadLine();
+            //AnagramDetection.Anagram(word1, word2);//Pass Values To Function
+            //Console.ReadLine();
 
             //AP3_Bubble_Sort
             //Bubble_Sort bubbleSort = new Bubble_Sort();
             //bubbleSort.BubbleSort();
             //Console.ReadLine();
+
+            //AP4(Insertion Sort)
+
+            int[] Array = { 2, 8, 9, 5, 6, 98, 45 };//Accept Array Value For Sorting
+            Console.WriteLine("Before Sort Array Is");
+            foreach (int i in Array)//Print Before Sort Elements
+            {
+                Console.WriteLine(i);
+            }
+          
+            Insertion_Sort.sort(Array);//Call Sort Function
+            sort.DisplayArray(Array);//Call Display Function0
         }
     }
 }
