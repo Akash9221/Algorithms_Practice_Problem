@@ -20,10 +20,20 @@ namespace Algorithm_Practice_Problem
             //Console.WriteLine(result);
             //Console.ReadLine();
 
-            //AP2_Bubble_Sort
-            Bubble_Sort bubbleSort = new Bubble_Sort();
-            bubbleSort.BubbleSort();
+
+            //AP2
+            //Accept Two String From Use
+            Console.WriteLine("Enter The First Word");
+            string word1 = Console.ReadLine();
+            Console.WriteLine("Enter The Second Word");
+            string word2 = Console.ReadLine();
+            AnagramDetection.Anagram(word1, word2);//Pass Values To Function
             Console.ReadLine();
+
+            //AP3_Bubble_Sort
+            //Bubble_Sort bubbleSort = new Bubble_Sort();
+            //bubbleSort.BubbleSort();
+            //Console.ReadLine();
         }
     }
 }
