@@ -46,6 +46,9 @@ namespace Algorithm_Practice_Problem
           
             Insertion_Sort.sort(Array);//Call Sort Function
             sort.DisplayArray(Array);//Call Display Function0
+
+            //UC5(Prime_NUmber)
+            Prime_Number.Prime();
         }
     }
 }
